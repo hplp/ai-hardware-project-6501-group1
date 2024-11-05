@@ -24,7 +24,7 @@ Our project aims to deploy lightweight NLP models for sentiment analysis on Pynq
 Pynq-Z1, Xilinx Vitis AI, Python.
 
 ## Expected Outcomes:
-- We expect our optimized lightweight models to achieve high accuracy on the Pynq-Z1, closing to that of the BERT model.
+- We expect our optimized lightweight models to achieve high accuracy on the Pynq-Z1 as BERT model.
 - We expect to achieve significant reductions in inference time on FPGA compared to traditional CPU/GPU deployments
 
 ## Timeline:
