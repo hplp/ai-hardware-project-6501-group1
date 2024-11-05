@@ -21,7 +21,7 @@ Our project aims to deploy lightweight NLP models for sentiment analysis on Pynq
 - Measure and compare inference time and accuracy on Pynq-Z1 against them on traditional hardware (CPU/GPU) to demonstrate FPGA's viability for NLP tasks.
 
 ## Technology Stack:
-pynq FPGA, Xilinx Vitis AI, Python.
+Pynq-Z1, Xilinx Vitis AI, Python.
 
 ## Expected Outcomes:
 - We expect our optimized lightweight models to achieve high accuracy on the Pynq-Z1, closing to that of the BERT model.
