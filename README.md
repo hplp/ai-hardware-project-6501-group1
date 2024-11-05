@@ -10,21 +10,22 @@
 - Longhao Tan
 
 ## Project Title:
-(Enter your project title - be creative)
+Natural Language Processing (NLP) Models for sentiment analysis based on FPGA
 
 ## Project Description:
-(Provide a short description of the problem you're addressing)
+Our project aims to deploy lightweight NLP models for sentiment analysis on Pynq-Z1 hardware. Sentiment analysis requires processing text data to determine the emotion within Sentences (e.g., positive, negative, neutral). It's typically handled by complex NLP models like BERT. To solve this problem, we will fine-tune lightweight models — DistilBERT, TinyBERT, and MobileBERT — using the Amazon Reviews Dataset. Then we’ll deploy these optimized models on Pynq-Z1 and evaluate their inference time and accuracy. Finally we will compare them to their performance on CPU/GPU.
 
 ## Key Objectives:
-- Objective 1
-- Objective 2
-- Objective 3
+- Fine-tune lightweight models like DistilBERT, TinyBERT, and MobileBERT on the Amazon Reviews Dataset to enhance sentiment analysis performance.
+- Deploy those optimized models on Pynq-Z1 to achieve efficent, low-cost sentiment analysis.
+- Measure and compare inference time and accuracy on Pynq-Z1 against them on traditional hardware (CPU/GPU) to demonstrate FPGA's viability for NLP tasks.
 
 ## Technology Stack:
-(List the hardware platform, software tools, language(s), etc. you plan to use)
+pynq FPGA, Xilinx Vitis AI, Python.
 
 ## Expected Outcomes:
-(Describe what you expect to deliver at the end of the project)
+- We expect our optimized lightweight models to achieve high accuracy on the Pynq-Z1, closing to that of the BERT model.
+- We expect to achieve significant reductions in inference time on FPGA compared to traditional CPU/GPU deployments
 
 ## Timeline:
 (Provide a rough timeline or milestones for the project)
