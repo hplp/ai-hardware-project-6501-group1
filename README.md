@@ -18,7 +18,7 @@ Our project aims to deploy lightweight LeNet-5 and MLP Models for Handwriting re
 ## Key Objectives:
 - Fine-tune lightweight models LeNet-5 and MLP with the MINST Dataset to enhance their handwriting recognition capacity. Use Xilinx Vistis AI to quantize and compress the models.
 - Deploy those optimized models on Pynq-Z1 and run them by using Jupyter Notebook the interface provided by the hardware to achieve efficent, low-cost handwriting recognition.
-- Measure and compare inference time and accuracy on Pynq-Z1 against them on traditional hardware CPU/GPU to demonstrate FPGA's viability for handwriting recognition tasks.
+- Measure and compare inference time and accuracy on Pynq-Z1 against traditional hardware CPU/GPU to demonstrate FPGA's viability for handwriting recognition tasks.
 
 ## Technology Stack:
 Pynq-Z1, Xilinx Vitis AI, Win32 Disk Imager, Python.
