@@ -28,4 +28,8 @@ Pynq-Z1, Xilinx Vitis AI, Win32 Disk Imager, Python.
 - We expect to achieve significant reductions in inference time on FPGA compared to traditional CPU/GPU deployments, thanks to the parallel processing capabilities and hardware-specific optimizations FPGA offers.
 
 ## Timeline:
-(Provide a rough timeline or milestones for the project)
+Week 1 (11.04-11.10): Proposal and presentation
+Week 2 (11.11-11.17): TBD
+Week 3 (11.18-11.24): TBD
+Week 4 (11.25-12.01): TBD
+Week 5 (12.02-12.08): Final presentation of our work
