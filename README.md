@@ -16,7 +16,7 @@ LeNet-5 and MLP Models for Handwriting Recognition Based on Pynq-Z1
 Our project aims to deploy lightweight LeNet-5 and MLP Models for Handwriting recognition on Pynq-Z1 hardware. Handwriting recognition requires effective processing of image data to identify and classify handwritten characters or digits. To achieve this goal, recognition systems often use machine learning models that can capture spatial relationships in the image. LeNet-5 and MLP can fit this job well. Both of them are compact, efficient, and effective, which make them suitable for deployment on resources-limited Pynq-Z1 platform. we will fine-tune lightweight models LeNet-5 and MLP by using the MINST Dataset. If necessary, We will quantize and compress the models to make them suitable for deployment on the PYNQ-Z1. Then we’ll deploy these optimized models on Pynq-Z1 and evaluate their inference time and accuracy. Finally we will compare them against traditional hardware CPU/GPU.
 
 ## Key Objectives:
-- Fine-tune lightweight models LeNet-5 and MLP with the MINST Dataset to enhance their handwriting recognition capacity. Use Xilinx Vistis AI quantize and compress the models.
+- Fine-tune lightweight models LeNet-5 and MLP with the MINST Dataset to enhance their handwriting recognition capacity. Use Xilinx Vistis AI to quantize and compress the models.
 - Deploy those optimized models on Pynq-Z1 and run them by using Jupyter Notebook the interface provided by the hardware to achieve efficent, low-cost handwriting recognition.
 - Measure and compare inference time and accuracy on Pynq-Z1 against them on traditional hardware CPU/GPU to demonstrate FPGA's viability for handwriting recognition tasks.
 
