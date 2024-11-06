@@ -13,7 +13,7 @@
 Natural Language Processing (NLP) Models for sentiment analysis based on FPGA
 
 ## Project Description:
-Our project aims to deploy lightweight NLP models for sentiment analysis on Pynq-Z1 hardware. Sentiment analysis requires processing text data to determine the emotion within sentences (e.g., positive, negative, neutral). It's typically handled by complex NLP models like BERT. However it requires too many computational resources to be deployed on resource-limited devices. To solve this problem, we will fine-tune lightweight models — DistilBERT, TinyBERT, and MobileBERT — using the Amazon Reviews Dataset. Then we’ll deploy these optimized models on Pynq-Z1 and evaluate their inference time and accuracy. Finally we will compare them to their performance on CPU/GPU.
+Our project aims to deploy lightweight NLP models for sentiment analysis on Pynq-Z1 hardware. Sentiment analysis requires processing text data to determine the emotion within sentences (e.g. positive, negative, neutral). It's typically handled by complex NLP models like BERT. However it requires too many computational resources to be deployed on resource-limited devices. To solve this problem, we will fine-tune lightweight models — DistilBERT, TinyBERT, and MobileBERT — using the Amazon Reviews Dataset. Then we’ll deploy these optimized models on Pynq-Z1 and evaluate their inference time and accuracy. Finally we will compare them to their performance on CPU/GPU.
 
 ## Key Objectives:
 - Fine-tune lightweight models like DistilBERT, TinyBERT, and MobileBERT on the Amazon Reviews Dataset to enhance sentiment analysis performance.
