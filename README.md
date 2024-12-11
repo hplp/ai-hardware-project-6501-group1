@@ -37,12 +37,12 @@ cd /home/Xilinx/jupyternotebooks
 ```
 Install it using the command: 
 ```bash
-pip install your\_tflite\_runtime\_liabrary.wheel
+pip install your_tflite_runtime_liabrary.wheel
 ```
 3. Enter /ai-hardware-project-6501-group1-main, and paste the code in Inference-time-on-PYNQ-Z1-without-acceleration.py to the jupyternotebooks. Run it and it will show the inference time and accuracy of LeNet-5-int8 model.
 
 ### On PYNQ-Z1 with FPGA Acceleration
-We referred to the work of Wang et al. \cite{Wang_FCCM18}, whose GitHub link is as follows: \url{https://github.com/awai54st/PYNQ-Classification/tree/master}. In their work, they designed an FPGA acceleration module for the LeNet-5 model. By following their instructions, we successfully used Vivado HLS to generate the bitstream file for FPGA configuration and uploaded it to the PYNQ-Z1 board. Alternatively, their pre-built image file can be used directly, which includes the FPGA module and pretrained Caffe network \cite{jia2014caffe}. Their prepared code will output the inference time and accuracy of LeNet-5 with FPGA acceleration.
+We referred to the work of Wang et al. \cite{Wang_FCCM18}, whose GitHub link is as follows: https://github.com/awai54st/PYNQ-Classification/tree/master. In their work, they designed an FPGA acceleration module for the LeNet-5 model. By following their instructions, we successfully used Vivado HLS to generate the bitstream file for FPGA configuration and uploaded it to the PYNQ-Z1 board. Alternatively, their pre-built image file can be used directly, which includes the FPGA module and pretrained Caffe network \cite{jia2014caffe}. Their prepared code will output the inference time and accuracy of LeNet-5 with FPGA acceleration.
 
 ## Expected Results
 The expected inference accuracy of LeNet-5 on different platforms will remain 98% - 99%. The inference time on computer CPU,  the processor of PYNQ-Z1, and the PYNQ-Z1 with FPGA acceleration are respectively expected to be less than 1 second, more than 10 seconds, and less than 2 seconds. Figures 1 - 3 show our results. Running on the computer, the total reference time is 0.5324 seconds and the test accuracy is 98.94%. Only relying on the PYNQ-Z1 processor, the inference accuracy and time are 98.93% and 17.0256 seconds. With FPGA acceleration, the model's inference time is significantly reduced to 1.24 seconds, demonstrating substantial improvement, while maintaining a high accuracy of 98.33%. The reduction of inference time demonstrates the viability to deploy deep learning model LeNet-5 on resource-limited PYNQ-Z1 with FPGA acceleration for handwriting recognition.
