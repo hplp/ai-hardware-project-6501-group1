@@ -1,5 +1,8 @@
 # LeNet-5 Models for Handwriting Recognition Based on Pynq-Z1
 
+## Team Member
+Longhao Tan (pzp8vh), Mohamed Tajudeen Sunaideen (xcu7gp)
+
 ## Description
 This project focuses on training and quantizing the LeNet-5 CNN deep learning model and deploying it on the PYNQ-Z1 platform utilizing its FPGA capabilities to achieve efficient hardware-accelerated inference for edge AI applications. This project involves testing and comparing  inference accuracy and execution time on the computer CPU, the processor of PYNQ-Z1, and the PYNQ-Z1 with FPGA acceleration.
 
