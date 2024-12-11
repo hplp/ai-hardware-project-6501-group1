@@ -44,7 +44,7 @@ pip install your_tflite_runtime_liabrary.wheel
 ### On PYNQ-Z1 with FPGA Acceleration
 We referred to the work of Wang et al.[1], whose GitHub link is as follows: https://github.com/awai54st/PYNQ-Classification/tree/master. In their work, they designed an FPGA acceleration module for the LeNet-5 model. By following their instructions, we successfully used Vivado HLS to generate the bitstream file for FPGA configuration and uploaded it to the PYNQ-Z1 board. Alternatively, their pre-built image file can be used directly, which includes the FPGA module and pretrained Caffe network[2]. Their prepared code will output the inference time and accuracy of LeNet-5 with FPGA acceleration.
 
-## Expected Results
+## Results
 <figure>
   <img src="https://github.com/hplp/ai-hardware-project-6501-group1/blob/main/Results-Figure/Figure1.png" />
   <figcaption>Figure 1: Model Performance on Computer CPU </figcaption>
