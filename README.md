@@ -47,7 +47,7 @@ We referred to the work of Wang et al.[1], whose GitHub link is as follows: http
 ## Expected Results
 <figure>
   <img src="https://github.com/hplp/ai-hardware-project-6501-group1/blob/main/Results-Figure/Figure1.png" />
-  <figcaption>Figure 1: Model Performance on Computer's CPU </figcaption>
+  <figcaption>Figure 1: Model Performance on Computer CPU </figcaption>
 </figure><br><br>
 <figure>
   <img src="https://github.com/hplp/ai-hardware-project-6501-group1/blob/main/Results-Figure/Figure2.png" />
