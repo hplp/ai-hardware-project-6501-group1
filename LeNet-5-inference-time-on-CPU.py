@@ -4,7 +4,7 @@ import tensorflow as tf
 import pandas as pd
 
 # load file
-csv_file = "../data/mnist_test.csv"
+csv_file = "/data/mnist_test.csv"
 mnist_data = pd.read_csv(csv_file, header=None).values
 
 # load test dataset
