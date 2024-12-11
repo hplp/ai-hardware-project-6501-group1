@@ -1,6 +1,6 @@
 # LeNet-5 Models for Handwriting Recognition Based on Pynq-Z1
 
-## Team Member
+## Team Members
 Longhao Tan (pzp8vh), Mohamed Tajudeen Sunaideen (xcu7gp)
 
 ## Description
@@ -45,10 +45,18 @@ pip install your_tflite_runtime_liabrary.wheel
 We referred to the work of Wang et al.[1], whose GitHub link is as follows: https://github.com/awai54st/PYNQ-Classification/tree/master. In their work, they designed an FPGA acceleration module for the LeNet-5 model. By following their instructions, we successfully used Vivado HLS to generate the bitstream file for FPGA configuration and uploaded it to the PYNQ-Z1 board. Alternatively, their pre-built image file can be used directly, which includes the FPGA module and pretrained Caffe network[2]. Their prepared code will output the inference time and accuracy of LeNet-5 with FPGA acceleration.
 
 ## Expected Results
-The expected inference accuracy of LeNet-5 on different platforms will remain 98% - 99%. The inference time on computer CPU,  the processor of PYNQ-Z1, and the PYNQ-Z1 with FPGA acceleration are respectively expected to be less than 1 second, more than 10 seconds, and less than 2 seconds.  
-![Figure 1: Model Performance on Computer's CPU](https://github.com/hplp/ai-hardware-project-6501-group1/blob/main/Results-Figure/Figure1.png)
-![Figure 2: Model Performance on PYNQ-Z1 without FPGA Acceleration](https://github.com/hplp/ai-hardware-project-6501-group1/blob/main/Results-Figure/Figure2.png)
-![Figure 3: Model Performance on PYNQ-Z1 with FPGA Acceleration](https://github.com/hplp/ai-hardware-project-6501-group1/blob/main/Results-Figure/Figure3.png)
+<figure>
+  <img src="https://github.com/hplp/ai-hardware-project-6501-group1/blob/main/Results-Figure/Figure1.png" />
+  <figcaption>Figure 1: Model Performance on Computer's CPU </figcaption>
+</figure><br><br>
+<figure>
+  <img src="https://github.com/hplp/ai-hardware-project-6501-group1/blob/main/Results-Figure/Figure2.png" />
+  <figcaption>Figure 2: Model Performance on PYNQ-Z1 without FPGA Acceleration </figcaption>
+</figure><br><br>
+<figure>
+  <img src="https://github.com/hplp/ai-hardware-project-6501-group1/blob/main/Results-Figure/Figure3.png" />
+  <figcaption>Figure 3: Model Performance on PYNQ-Z1 with FPGA Acceleration[1] </figcaption>
+</figure><br><br>
 
 The 3 figures show the results. Running on the computer, the total reference time is 0.6423 seconds and the test accuracy is 98.94%. Only relying on the PYNQ-Z1 processor, the inference accuracy and time are 98.93% and 17.0256 seconds. With FPGA acceleration, the model's inference time is significantly reduced to 1.24 seconds, demonstrating substantial improvement, while maintaining a high accuracy of 98.33%. The reduction of inference time demonstrates the viability to deploy deep learning model LeNet-5 on resource-limited PYNQ-Z1 with FPGA acceleration for handwriting recognition.
 
